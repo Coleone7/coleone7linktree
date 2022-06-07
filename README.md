@@ -1,2 +1,2 @@
-# [http://coleone7linktree.github.io](https://coleone7.github.io/coleone7linktree/)
+# https://coleone7.github.io/coleone7linktree/
 Meu Linktree com todos os meus desenvolvimentos como Front-End.
