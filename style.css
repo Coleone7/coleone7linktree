@@ -17,6 +17,8 @@ body{
     font-size: 20px;
 }
 
+/* #322f30 - segunda opção de plano de fundo pro body.  */
+
 .avatar{
     border-radius: 100%;
     border: 3px solid white;
@@ -94,6 +96,7 @@ h3{
     list-style: none;
 }
 
+
 .back li,
 .link-list li{
     display: flex;
@@ -115,8 +118,9 @@ h3{
     font-weight: 500;
 }
 
-.back li:hover,
-.link-list li:hover{
+/* .back li:hover,
+.link-list li:hover */
+.menu-hover li:hover{
     background: #545454;
     border: 3px solid #969393;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -129,9 +133,23 @@ h3{
 
 }
 
+.description li{
+    width: 760px;
+    height: 300px;
+    text-indent: 16px;
+    text-align: center;
+}
+
+.more-about-story li{
+    width: 250px;
+    height: 50px;
+    
+}
+
 .back li{
     font-size: 15px;
     width: 90px;
     height: 40px;
 }
+
 

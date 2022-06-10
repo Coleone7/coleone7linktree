@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    background-color:white;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    width: 100%;
+    padding: 20px 40px 0px 40px;
+}
+
+.container h1, h2{
+    padding: 5px 0 ;
+    font-weight: 500;
+}
+
+.container h3{
+    margin: 0px 0 10px 0;
+    font-weight: bold;
+}
+
+.lista-qualifica{
+    font-weight: 400;
+}
+
+.lista-formacao{
+    font-weight: 400;
+}
+
+.social-media{
+    text-align: center;
+    padding: 60px 0 0 0;
+
+}
+
+.fone-contato{
+    margin-top: 10px;
+}
+
+.social{
+    margin: 10px;
+}
+
+.social a{
+    font-size: 35px;
+    color: black;
+    padding: 0 10px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+}
+
+.linked-in:hover{
+    color:#0073a4 ;
+}
+
+.fa-github:hover {
+    color: #5a32a3;
+}
+
+
+
+.flex{
+    display: flex  ;
+    flex-direction: row;
+    flex-wrap: wrap;   
+}
+
+.container2{
+    width: 50%;
+    padding: 20px 0 0 0;
+
+}
+
+.foto{
+    border-radius: 100%;
+    width: 200px;
+}
+
+.social-logo{
+    width: 30px;
+}
+
+.social-link{
+    text-decoration: none;
+}
+
+.exp-prof p, ul{
+    font-weight: bold;
+}
+
+.exp-prof p{
+    margin-top: 20px;
+}
+
+.exp-prof li{
+    list-style: none;
+    margin: 10px;
+    font-weight: 400;
+}
