@@ -157,3 +157,29 @@ h3{
     height: auto;
     padding: 10px;
 }
+
+.info-1 {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.info {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    width: 300px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.relative:hover .info {
+    display: block;
+}
+
+.relative{
+    position: relative;
+}
